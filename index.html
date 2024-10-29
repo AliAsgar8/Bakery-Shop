@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+    <!-- ---------------------------NAVBAR SECTIOIN-------------------------------------- -->
+
+    <nav class="mx-5 d-md-container  pt-5 position-relative ">
+        <div class=" d-flex justify-content-between pb-4 align-items-center">
+            <div class="d-none d-md-flex gap-4">
+                <div class="nav_img">
+                    <img src="assets/images/list.svg" alt="">
+                </div>
+                <div class="nav_img">
+                    <img src="assets/images/world.svg" alt="">
+                </div>
+            </div>
+
+            <div class="logo">
+                <img src="assets/images/logo-dark.png" alt="">
+            </div>
+            <div class=" d-flex ms-5  d-md-flex  gap-4 justify-content-end">
+                <div class="search_addToCart d-none  d-sm-block   d-sm-flex gap-4 ">
+
+                    <div class="nav_img">
+                        <img src="assets/images/search.svg" alt="">
+                    </div>
+                    <div class="nav_img">
+                        <img src="assets/images/addToCart.svg" alt="">
+                    </div>
+
+                </div>
+
+                <div class="nav_img hamburger d-block  d-md-none">
+                    <img src="assets/images/hamburger.svg" alt="">
+                </div>
+            </div>
+
+        </div>
+
+
+        <div>
+            <ul class="d-none d-md-flex m-0 justify-content-center gap-5 py-4  border-top border-bottom">
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">PROCESS</a></li>
+                <li><a href="">CONTACT US</a></li>
+            </ul>
+        </div>
+
+        <!-- --------------------------SIDE NAVBAR RESPONSIVE--------------------------- -->
+
+        <div class="side_navbar ">
+            <div class="bakery_name_close_icon d-flex justify-content-between align-items-center">
+                <div class="bakery_name">
+                    <img src="assets/images/logo-dark.png" alt="">
+                </div>
+
+                <div class="close_icon nav_img">
+                    <img src="assets/images/close.svg" alt="">
+
+                </div>
+            </div>
+
+            <ul class="side_navigation">
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">PROCESS</a></li>
+                <li><a href="">CONTACT US</a></li>
+            </ul>
+
+            <div class="list_world_icon d-flex justify-content-around align-items-center">
+                <div class="list_icon nav_img">
+                    <img src="assets/images/list.svg" alt="">
+                </div>
+                <div class="world_icon nav_img ">
+                    <img src="assets/images/world.svg" alt="" onclick="closeMenu()">
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+
+    <!-- -------------------------------------MAIN SECTION--------------------------------------- -->
+
+    <main class="position-relative">
+        <div class="d-flex justify-content-end">
+            <div class="banner_image"></div>
+        </div>
+
+        <div class="main_heading">
+            <h1>Bakery</h1>
+        </div>
+
+        <div class="main_content ">
+            <div class="d-flex justify-content-center align-items-center gap-3">
+
+                <div class="">
+                    <h1>M</h1>
+                </div>
+                <div>
+                    <p class="m-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit, id aspernatur sed
+                        consectetur earum accusamus!</p>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis vitae deleniti, ut totam beatae ex ad,
+                inventore autem explicabo ratione sed similique aperiam alias quisquam, accusamus a! At voluptas dolore
+                sunt ratione consequatur. Totam, et ut vero sequi mollitia delectus ab fugit, autem aliquam voluptates.
+            </p>
+        </div>
+    </main>
+
+
+
+
+    <!-- --------------------------ABOUT SECTION------------------ -->
+
+    <div class="about_section container justify-content-center align-items-center py-5">
+
+        <div class="bakery_chief ">
+            <img src="assets/images/bakery_chief.png" alt="">
+        </div>
+
+        <div class="text-justify">
+            <p class="text-justify w-75">"Welcome to SUNRISE, where each bite is a celebration of warmth and flavor!
+                From
+                freshly baked bread to decadent pastries, every treat we create is made with love, quality
+                ingredients, and a passion for perfection."</p>
+            <div class="about_content_img">
+                <img src="assets/images/logo-dark.png" alt="">
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- ------------------------GALLERY SECTION----------------------  -->
+
+    <div class="all_photos d-flex flex-column gap-5">
+
+        <div class="d-flex flex-wrap justify-content-center gap-2 my-3">
+            <div class="person_on_hotel">
+                <img src="assets/images/about_1.jpg" alt="">
+            </div>
+            <div>
+                <img src="assets/images/about_2.jpg" alt="">
+            </div>
+            <div class="d-flex flex-column gap-4 fle-wrap">
+                <img src="assets/images/about_3.jpg" alt="">
+                <img src="assets/images/about_4.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center flex-wrap">
+            <div class="about_img">
+                <img src="assets/images/about_6.jpg" alt="">
+            </div>
+            <div class="about_img">
+                <img src="assets/images/about_9.jpg" alt="">
+            </div>
+            <div class="about_img custom-text-bakery ">
+                <img src="assets/images/about_7.jpg" alt="">
+            </div>
+
+        </div>
+
+
+        <div class="d-flex gap-3 justify-content-center flex-wrap">
+            <div class="about_img">
+                <img src="assets/images/about_10.jpg" alt="">
+            </div>
+            <div class="about_img">
+                <img src="assets/images/about_11.jpg" alt="">
+            </div>
+            <div class="about_img">
+                <img src="assets/images/about_12.jpg" alt="">
+            </div>
+            <div class="about_img">
+                <img src="assets/images/about_13.jpg" alt="">
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- ------------------------LIST/CARD SECTION---------------------- -->
+
+    <div class="all_card_list d-flex flex-wrap gap-4 justify-content-center my-5">
+
+        <div class="Card  card_border_none_1 border_right px-2 py-4">
+            <div class="card_img d-flex justify-content-center align-items-center text-center">
+                <img src="assets/images/card_1.png" alt="">
+            </div>
+            <h3 class="text-center">BREAKFAST</h3>
+            <p class="text-center">Lorem ipsum dolor sit amet, his convenire similique.</p>
+        </div>
+
+        <div class="Card  border_right card_border_none_2  px-2 py-4">
+            <div class="card_img d-flex justify-content-center align-items-center">
+                <img src="assets/images/card_2.png" alt="">
+            </div>
+            <h3 class="text-center">PASTRY</h3>
+            <p class="text-center">Lorem ipsum dolor sit amet, his convenire similique.</p>
+        </div>
+
+        <div class="Card card_border_none_3 border_right px-2 py-4">
+            <div class="card_img d-flex justify-content-center align-items-center">
+                <img src="assets/images/card_3.png" alt="">
+            </div>
+            <h3 class="text-center">SANDWICHES</h3>
+            <p class="text-center">Lorem ipsum dolor sit amet, his convenire similique.</p>
+        </div>
+
+        <div class="Card  px-2 py-4">
+            <div class="card_img d-flex justify-content-center align-items-center">
+                <img src="assets/images/cart_4.png" alt="">
+            </div>
+            <h3 class="text-center">COFFEE</h3>
+            <p class="text-center">Lorem ipsum dolor sit amet, his convenire similique.</p>
+        </div>
+
+    </div>
+
+
+    <!------------------------------ MENU SECTION ---------------------->
+
+    <div class="all_menu pl-5 ">
+        <div class="left_menu py-5">
+            <div class="menu_name w-100 d-sm-w-100">
+                <div class=" d-flex  align-items-center ">
+                    <h3 class="m-0 menu_content">PAIN CHOCOLAT</h3>
+                    <p class="m-0 menu_price">
+                        ...................................................................................................$19.00
+                    </p>
+                </div>
+                <p class="display-11">Thinly sliced bread brushed with olive oil and toasted</p>
+            </div>
+            <div class="menu_name w-100 d-sm-w-100">
+                <div class=" d-flex  align-items-center ">
+                    <h3 class="m-0 menu_content">Multigrain Hot Cereal</h3>
+                    <p class="m-0 menu_price">
+                        .................................................................................$19.00</p>
+                </div>
+                <p class="display-11">Thinly sliced bread brushed with olive oil and toasted</p>
+            </div>
+            <div class="menu_name w-100 d-sm-w-100">
+                <div class=" d-flex  align-items-center ">
+                    <h3 class="m-0 menu_content">Bialy Egg Sandwich</h3>
+                    <p class="m-0 menu_price">
+                        .........................................................................................$24.00
+                    </p>
+                </div>
+                <p class="display-11">Layered with two fried eggs, roasted tomatoes, basil</p>
+            </div>
+            <div class="menu_name w-100 d-sm-w-100">
+                <div class=" d-flex  align-items-center ">
+                    <h3 class="m-0 menu_content">Lemon Yogurt Parfait</h3>
+                    <p class="m-0 menu_price">
+                        .................................................................................$07.00</p>
+                </div>
+                <p class="display-11">Layered with two fried eggs, roasted tomatoes, basil</p>
+            </div>
+
+
+
+
+
+        </div>
+
+
+
+        <div class="right_menu py-5">
+
+            <div class="menu_name w-100 d-sm-w-100">
+                <div class=" d-flex  align-items-center ">
+                    <h3 class="m-0 menu_content">CHAUSSON POMME</h3>
+                    <p class="m-0 menu_price">
+                        ..........................................................................................$14.00
+                    </p>
+                </div>
+                <p class="display-11">Served with berry compote and sliced almonds </p>
+            </div>
+            <div class="menu_name w-100 d-sm-w-100">
+                <div class=" d-flex  align-items-center ">
+                    <h3 class="m-0 menu_content">CROISSANT OMELETTE</h3>
+                    <p class="m-0 menu_price">
+                        .................................................................................$29.00</p>
+                </div>
+                <p class="display-11">Thinly sliced bread brushed with olive oil and toasted</p>
+            </div>
+            <div class="menu_name w-100 d-sm-w-100">
+                <div class=" d-flex  align-items-center ">
+                    <h3 class="m-0 menu_content">ESCARGOT RAISIN</h3>
+                    <p class="m-0 menu_price">........................
+                        .........................................................................$13.00</p>
+                </div>
+                <p class="display-11">Greek yogurt layered with lemon curd</p>
+            </div>
+            <div class="menu_name w-100 d-sm-w-100">
+                <div class=" d-flex  align-items-center ">
+                    <h3 class="m-0 menu_content">French CROISSANT</h3>
+                    <p class="m-0  menu_price">
+                        ..............................................................................................$05.00
+                    </p>
+                </div>
+                <p class="display-11">Thinly sliced bread brushed with olive oil and toasted</p>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+
+    <!-- ----------------------FOOTER SECTION------------------------- -->
+
+    <div class="footer py-5  d-flex justify-content-center container align-items-center gap-5 flex-wrap">
+        <div class="left_section d-flex flex-column gap-4 justify-content-center align-items-center">
+            <div class="footer_logo">
+                <img src="assets/images/logo-dark.png" alt="">
+            </div>
+            <p class="m-0 footer_text">Tart bear claw cake tiramisu chocolate bar gummies <br> dragée lemon drops
+                brownie.
+            </p>
+            <div class="all_icon d-flex gap-4">
+
+                <div class="facebook icon">
+                    <img src="assets/images/facebook.svg" alt="">
+                </div>
+                <div class="twitter icon">
+                    <img src="assets/images/twitter.svg" alt="">
+                </div>
+                <div class="instagram icon">
+                    <img src="assets/images/instagram.svg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="contact mx-5 d-flex flex-column justify-content-center align-items-center mt-5">
+
+            <div>
+                <h4>GET NEWS AND OFFER</h4>
+
+            </div>
+            <div class="input_field my-4 d-flex ">
+                <input type="text" placeholder="ENTER YOUR EMAIL" class="px-5 py-2">
+                <button class="px-4 py-2 button">SUBSCRIBE</button>
+            </div>
+
+            <div class="mb-3">
+                <h4>CONTACT US</h4>
+            </div>
+
+            <p class="m-0 info  ">PO Box 16122 Collins Street West,Victoria 8007 Australia</p>
+
+            <p> (+84 ) 7534 9773, (+84 ) 874 548</p>
+        </div>
+
+
+        <div class="time_to_open d-flex flex-column justify-content-center align-items-center">
+            <div>
+                <h4>TIME TO OPEN</h4>
+            </div>
+
+            <div>
+                
+                <p>Monday - Friday <span class="ps-2 ps-md-5">08:00 am - 08:30 pm</span></p>
+             
+
+                <p>Saturday - Sunday <span class="ps-2 ps-md-5">10:00 am - 04:30 pm</span></p>
+               
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
